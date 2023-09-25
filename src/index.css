@@ -12,3 +12,9 @@
     text-decoration: underline;
     font-weight: 700;
 }
+
+.banner{
+    background-image: url(./banner.png);
+    background-size: cover;
+    background-position: center center;
+}
