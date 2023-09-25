@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="form-control">
                 <div className="input-group">
                     <input type="text" placeholder="Search here..." className="input input-bordered focus:outline-none sm:w-96" />
-                    <button className="btn btn-error text-white">Search</button>
+                    <button style={{background: `#ff444a`}} className="btn text-white border-none">Search</button>
                 </div>
             </div>
         </div>
