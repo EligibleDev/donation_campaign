@@ -5,18 +5,25 @@ const Donations = () => {
     const [donations, setDonations] = useState([]);
     const [notFound, setNotFound] = useState('');
     const [show, setShow] = useState(false);
+    const [totalPrice, setTotalPrice] = useState(0);
 
     useEffect(() => {
         const donatedItems = JSON.parse(localStorage.getItem('donations'));
 
         if (donatedItems) {
-            setDonations(donatedItems)
+            setDonations(donatedItems);
+
+            const total = donatedItems.reduce((previous, current) => parseInt(previous)
+                + parseInt(current.price), 0);
+
+            console.log(total)
+            setTotalPrice(total);
         } else {
             setNotFound(`You Didn't Donated Yet`)
         }
     }, [])
 
-    console.log(donations)
+    console.log(totalPrice);
 
     return (
         <>
@@ -30,10 +37,10 @@ const Donations = () => {
                         }
                     </div>
 
-                    {donations.length > 4
-                        ? <button onClick={() => setShow(!show)} className="mx-auto flex btn mb-8">
-                            {!show ? 'Show All' : 'Show Less'}
-                        </button>
+                    {donations.length > 4 && !show
+                        ? <button style={{ background: `#ff444a` }} onClick={() => setShow(!show)}
+                            className="mx-auto flex btn text-white border-none mb-8">
+                            Show All</button>
                         : ''}
                 </>
             }

@@ -7,7 +7,7 @@
         "primaryColor": "#0052FF",
         "secondaryColor": "#AEC8FF",
         "tertiaryColor": "#D9E5FF",
-        "price": "499",
+        "price": 499,
         "description": "There are many things that can be done to ensure that all people have access to good healthcare. Governments can invest in public healthcare infrastructure, provide financial assistance for medical expenses, and ensure that all healthcare facilities have qualified healthcare professionals and necessary resources. Families can support their loved ones' health by creating a supportive and healthy environment at home and assisting them in managing their health. Healthcare providers can create a positive and patient-centered care environment, offering guidance and encouraging individuals to prioritize their overall well-being."
     },
     {
@@ -18,7 +18,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#FFC3C5",
         "tertiaryColor": "#FFE3E4",
-        "price": "349",
+        "price": 349,
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
     },
     {
@@ -29,7 +29,7 @@
         "primaryColor": "#79C23F",
         "secondaryColor": "#d4ecc1",
         "tertiaryColor": "#ebf6e2",
-        "price": "299",
+        "price": 299,
         "description": "There are many things that can be done to ensure that all people have access to good clothing. Governments can invest in public initiatives to promote affordable and sustainable clothing options, provide financial assistance for those in need, and ensure that clothing production adheres to ethical and environmentally responsible practices. Families can support their members' access to quality clothing by fostering an appreciation for responsible consumption and helping them maintain a functional and stylish wardrobe. Clothing designers and manufacturers can create a positive and innovative fashion industry, offering diverse, eco-friendly options while encouraging individuals to make conscious clothing choices."
     },
     {
@@ -40,7 +40,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#ffc3c5",
         "tertiaryColor": "#ffe3e4",
-        "price": "249",
+        "price": 249,
         "description": "There are many things that can be done to ensure that all people have access to good food. Governments can invest in public initiatives to promote affordable and nutritious food options, provide financial assistance for those in need, and ensure that food production adheres to ethical and sustainable practices. Families can support their members' access to quality food by cultivating healthy eating habits and helping them access nutritious food. Food producers and suppliers can create a positive and sustainable food industry, offering diverse, health-conscious options while encouraging individuals to make informed food choices."
     },
     {
@@ -51,7 +51,7 @@
         "primaryColor": "#0052FF",
         "secondaryColor": "#aec8ff",
         "tertiaryColor": "#d9e5ff",
-        "price": "199",
+        "price": 199,
         "description": "Promote mental health awareness and support. Governments can allocate funds for mental health programs, provide counseling services, and reduce the stigma around mental health. Families can foster open conversations and provide emotional support to their loved ones. Mental health professionals can create a safe and empathetic space, offering guidance for individuals to prioritize their mental well-being."
     },
     {
@@ -62,7 +62,7 @@
         "primaryColor": "#0052FF",
         "secondaryColor": "#aec8ff",
         "tertiaryColor": "#d9e5ff",
-        "price": "299",
+        "price": 299,
         "description": "Encourage regular preventive health screenings. Governments can organize free or low-cost health check-ups, raise awareness about the importance of early detection, and provide incentives for healthy living. Families can motivate their members to schedule screenings and maintain a healthy lifestyle. Healthcare providers can offer comprehensive screening packages and educate individuals on the significance of preventive care."
     },
     {
@@ -73,7 +73,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#ffc3c5",
         "tertiaryColor": "#ffe3e4",
-        "price": "399",
+        "price": 399,
         "description": "Promote STEM (Science, Technology, Engineering, and Mathematics) education through scholarships. Governments can offer financial assistance to students pursuing STEM fields, encourage STEM curriculum in schools, and support STEM-related extracurricular activities. Families can inspire their children to explore STEM subjects and provide resources for STEM learning. Educational institutions can create innovative STEM programs and equip students with the skills needed for the future."
     },
     {
@@ -84,7 +84,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#ffc3c5",
         "tertiaryColor": "#ffe3e4",
-        "price": "199",
+        "price": 199,
         "description": "Promote literacy and access to education for all. Governments can invest in literacy programs, provide accessible reading materials, and support adult education. Families can encourage reading and learning at home and assist those who struggle with literacy. Educators can create inclusive learning environments and offer tailored support to improve literacy skills."
     },
     {
@@ -95,18 +95,18 @@
         "primaryColor": "#79C23F",
         "secondaryColor": "#d4ecc1",
         "tertiaryColor": "#ebf6e2",
-        "price": "399",
+        "price": 399,
         "description": "Promote ethical fashion and sustainable clothing choices. Governments can encourage sustainable fashion practices, regulate ethical sourcing, and support eco-friendly clothing brands. Families can adopt conscious consumer habits and prioritize sustainable clothing options. Fashion designers and manufacturers can embrace eco-conscious production methods and promote ethical fashion as a responsible choice for consumers."
     },
     {
         "id": "10",
-        "title": "Warm Cloth for All",
+        "title": "Warm Clothing for All",
         "image": "https://i.ibb.co/3dzH8Xs/february-girl-winter-snowfall-child-1098-6245.png",
         "category": "Clothing",
         "primaryColor": "#79C23F",
         "secondaryColor": "#d4ecc1",
         "tertiaryColor": "#ebf6e2",
-        "price": "249",
+        "price": 249,
         "description": "Provide warm clothing to those in need. Governments can organize winter clothing drives, distribute cold-weather gear to vulnerable populations, and ensure shelters are well-equipped for the winter months. Families can donate gently used warm clothing and volunteer at local shelters. Clothing manufacturers can produce affordable, high-quality winter clothing to ensure everyone can stay warm during the coldest seasons."
     },
     {
@@ -117,7 +117,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#ffc3c5",
         "tertiaryColor": "#ffe3e4",
-        "price": "199",
+        "price": 199,
         "description": "Ensure nutritious meals for children. Governments can implement school nutrition programs, provide subsidies for healthy meals, and educate parents on proper child nutrition. Families can prioritize balanced diets for their children and teach them about healthy food choices. Food producers can create nutritious and appealing food options for kids while promoting healthy eating habits from a young age."
     },
     {
@@ -128,7 +128,7 @@
         "primaryColor": "#FF444A",
         "secondaryColor": "#ffc3c5",
         "tertiaryColor": "#ffe3e4",
-        "price": "249",
+        "price": 249,
         "description": "Foster community food gardens for sustainable produce. Governments can support urban and rural community gardens, provide resources for gardening, and encourage local food production. Communities can come together to cultivate fresh produce, share gardening knowledge, and promote sustainable food practices. Food growers can contribute to local food security and reduce food miles by growing their own produce."
     }
 ]

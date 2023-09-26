@@ -11,7 +11,7 @@ const Banner = ({ handleSearch }) => {
                 <form onSubmit={handleSearch} className="input-group">
                     <input name="search" id="search-input" type="text" placeholder="Search here..." className="input input-bordered focus:outline-none sm:w-96" />
 
-                    <input placeholder="Search" type="submit" style={{ background: `#ff444a` }} className="btn text-white border-none"/> 
+                    <input placeholder="Search" type="submit" style={{ background: `#ff444a` }} className="btn text-white border-none" />
                 </form>
             </div>
         </div>

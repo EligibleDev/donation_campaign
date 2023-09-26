@@ -4,11 +4,13 @@ import Home from "../../Pages/Home/Home";
 import Donations from "../../Pages/Donations/Donations";
 import Statistics from "../../Pages/Statistics/Statistics";
 import CampaignDetails from "../../Pages/CampaignDetails/CampaignDetails";
+import ErrorPage from "../../Components/ErrorPage/ErrorPage";
 
 const MainRoute = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout/>,
+        errorElement: <ErrorPage/>,
         children: [
             {
                 path: "/",
@@ -21,7 +23,7 @@ const MainRoute = createBrowserRouter([
             },
             {
                 path: "/statistics",
-                element: <Statistics/>
+                element: <Statistics/>,
             },
             {
                 path: "/campaigns/:id",

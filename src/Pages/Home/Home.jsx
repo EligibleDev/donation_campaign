@@ -1,26 +1,24 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../Components/Banner/Banner";
 import Campaigns from "../../Components/Campaigns/Campaigns";
+import { useState } from "react";
 
 const Home = () => {
     const data = useLoaderData();
-
-
+    const [searchInput, setSearchInput] = useState('')
 
     const handleSearch = (event) => {
         event.preventDefault();
-        const searchInput = event.target.search;
-        console.log(searchInput.value);
+        let search = event.target.search.value;
+        setSearchInput(search);
 
-        searchInput.value = '';
+        search = '';
     }
-
-
 
     return (
         <>
             <Banner handleSearch={handleSearch} />
-            <Campaigns  data={data} />
+            <Campaigns searchInput={searchInput} data={data} />
         </>
     );
 };
