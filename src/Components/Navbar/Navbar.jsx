@@ -16,7 +16,7 @@ const Navbar = () => {
           <label tabIndex={0} className="p-0 lg:hidden">
             <FaBars className="h-7 w-7 text-right" />
           </label>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] right-0 w-[calc(100vw-20px)] shadow bg-base-100 rounded-box">
+          <ul tabIndex={0} className="menu gap-4 p-8 menu-sm dropdown-content mt-3 z-[1] right-0 w-[calc(100vw-20px)] shadow bg-base-100 rounded-box">
             <Menu />
           </ul>
         </div>
