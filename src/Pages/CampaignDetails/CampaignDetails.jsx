@@ -9,17 +9,17 @@ const CampaignDetails = () => {
     const handleDonate = () => {
         const donatedArray = [];
 
-        const donatedItems = JSON.parse(localStorage.getItem('donates'));
+        const donatedItems = JSON.parse(localStorage.getItem('donations'));
 
         if (!donatedItems) {
             donatedArray.push(currentCampaign);
-            localStorage.setItem('donates', JSON.stringify(donatedArray));
+            localStorage.setItem('donations', JSON.stringify(donatedArray));
             swal("Done", "Successfully Donated on this Campaign", "success");
         } else {
             const isExist = donatedItems.find(item => item.id === id);
             if (!isExist) {
                 donatedArray.push(...donatedItems, currentCampaign);
-                localStorage.setItem('donates', JSON.stringify(donatedArray))
+                localStorage.setItem('donations', JSON.stringify(donatedArray))
                 swal("Done", "Successfully Donated on this Campaign", "success");
             } else {
                 swal("Error", "Already Donated on this Campaign", "error");
@@ -28,13 +28,11 @@ const CampaignDetails = () => {
 
         }
 
-        console.log(currentCampaign);
     }
 
     const currentCampaign = data.find(item => item.id === id);
     const { price, title, image, description, primaryColor, } = currentCampaign;
 
-    console.log(currentCampaign);
     return (
         <div className="max-w-screen-xl mx-auto px-6 xl:px-0 pb-12">
             <div className="w-full lg:h-[44rem] sm:h-96 h-56 rounded-xl relative " style={{
